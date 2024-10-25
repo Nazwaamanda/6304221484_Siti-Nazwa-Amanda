@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KalkulatorSederhana</string>
+
+    <string name="hint_number1">Masukkan Panjang Balok</string>
+    <string name="hint_number2">Masukkan Lebar Balok</string>
+
+    <string name="hint_number3">Masukkan Tinggi Balok</string>
+
+
+    <string name="button_add">Hitung Luas Balok</string>
+
+    <string name="button_subtract">Hitung Volume Balok</string>
+
+
+    <string name="result_invalid">Masukkan angka yang valid</string>
+
+    <string name="result_divide_zero">Tidak bisa dibagi dengan nol</string>
+    <string name="textview">Hasil Perhitungan</string>
+</resources>

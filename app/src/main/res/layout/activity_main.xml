@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">  <!-- Elemen-elemen berada di tengah -->
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/hint_number1"
+        android:gravity="center" /> <!-- Teks di dalam EditText juga di tengah -->
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/hint_number2"
+        android:gravity="center" /> <!-- Teks di dalam EditText juga di tengah -->
+
+    <EditText
+        android:id="@+id/number3"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/hint_number3"
+        android:gravity="center" /> <!-- Teks di dalam EditText juga di tengah -->
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_add"
+        android:layout_gravity="center" /> <!-- Tombol di tengah -->
+
+    <Button
+        android:id="@+id/subtractButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_subtract"
+        android:layout_gravity="center" /> <!-- Tombol di tengah -->
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" /> <!-- TextView di tengah -->
+</LinearLayout>
